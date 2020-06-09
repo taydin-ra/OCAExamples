@@ -21,9 +21,6 @@ public class Employee {
 
     }
 
-//    public Employee() {
-//
-//    }
 
 
     //getter and setter methods for attributes go here
@@ -55,6 +52,7 @@ public class Employee {
         this.salary = salary;
     }
 }
+
 class Test {
     public static void main(String[] args) {
         Employee e1 = new Employee();

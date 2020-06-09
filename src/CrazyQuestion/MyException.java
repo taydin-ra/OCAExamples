@@ -14,7 +14,7 @@ class Test {
 
     public static void method1() {
         try {
-            throw Math.random() > 0.5 ? new RuntimeException() : new MyException() ;
+            throw Math.random() > 0.5 ? new MyException() : new RuntimeException() ;
         } catch (RuntimeException e) {
             System.out.println("B");
         }
